@@ -119,7 +119,7 @@ if st.session_state.logged_in:
         
     # === 🏠 HOME (CHAT WITH MEMORY) ===
     if menu == "🏠 Home (AI Chat)":
-        st.title("🤖 Chat with fly2laksh AI")
+        st.title("fly2laksh")
         st.write(f"Welcome back, {st.session_state.user_email}! Ask me anything.") 
 
         # A. Session State Initialize (Memory Box)
