@@ -7,7 +7,7 @@ import pandas as pd
 import bcrypt # <-- नया
 
 # --- 1. CONFIGURATION ---
-st.set_page_config(page_title="fly2laksh", page_icon="", layout="wide")
+st.set_page_config(page_title="fly2laksh", page_icon="st.image("fly2laksh_logo.png", width=150)", layout="wide")
 
 # API KEY SETUP
 try:
@@ -40,7 +40,7 @@ if st.session_state.logged_in:
         st.write("Data Analytics & Automation Solutions")
         st.markdown("---")
         menu = st.radio("Navigation", 
-            ["🏠 Home (AI Chat)", 
+            ["Your AI", 
              "🛠 Services", 
              "📂 Portfolio", 
              "📞 Contact", 
