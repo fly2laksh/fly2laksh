@@ -7,7 +7,7 @@ import pandas as pd
 import bcrypt # <-- नया
 
 # --- 1. CONFIGURATION ---
-st.set_page_config(page_title="fly2laksh AI", page_icon="🚀", layout="wide")
+st.set_page_config(page_title="fly2laksh", page_icon="", layout="wide")
 
 # API KEY SETUP
 try:
