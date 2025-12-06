@@ -36,7 +36,7 @@ if 'user_email' not in st.session_state:
 # Navigation केवल तभी दिखेगी जब यूज़र लॉग इन होगा
 if st.session_state.logged_in:
     with st.sidebar:
-        st.title("🚀 fly2laksh")
+        st.title("fly2laksh")
         st.write("Data Analytics & Automation Solutions")
         st.markdown("---")
         menu = st.radio("Navigation", 
