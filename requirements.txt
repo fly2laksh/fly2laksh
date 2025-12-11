@@ -1,4 +1,5 @@
-streamlit
-google-generativeai
-pandas
-bcrypt
+# requirements.txt file content
+Flask
+gunicorn
+google-genai
+requests
