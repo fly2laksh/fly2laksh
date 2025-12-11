@@ -1,5 +1,2 @@
-# requirements.txt file content
-Flask
-gunicorn
+streamlit
 google-genai
-requests
