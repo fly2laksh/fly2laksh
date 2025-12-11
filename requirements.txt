@@ -1,2 +1,3 @@
+# requirements.txt
 streamlit
 google-genai
